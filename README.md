@@ -1,6 +1,6 @@
 # 🧑‍💼 Job Listing App
 
-A responsive React application that allows users to **add**, **edit**, **delete**, and **view** job listings. Built as a portfolio project using React for the frontend and JSON Server as a mock backend. The app also features toast notifications for user feedback and a modern UI built with Tailwind CSS.
+A responsive React application that allows users to **add**, **edit**, **delete**, and **view** job listings. Built  using React for the frontend and JSON Server as a mock backend. The app also features toast notifications for user feedback and a modern UI built with Tailwind CSS.
 
 ---
 
