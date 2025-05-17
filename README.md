@@ -41,3 +41,6 @@ Start it with:
 
 ```bash
 npx json-server --watch db.json --port 8000
+
+- **Frontend (React App)**: [https://react-job-website-q2j8.vercel.app](https://react-job-website-q2j8.vercel.app)
+- **Backend (JSON Server)**: [https://json-server-wiov.onrender.com/jobs](https://json-
