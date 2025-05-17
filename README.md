@@ -28,7 +28,7 @@ A responsive React application that allows users to **add**, **edit**, **delete*
 
 ## 📦 About JSON Server
 
-**JSON Server** is a zero-configuration tool that turns a simple `db.json` file into a full REST API. It’s great for prototyping and front-end development without needing a real backend.
+**JSON Server** is a zero-configuration tool that turns a simple `jobs.json` file into a full REST API. It’s great for prototyping and front-end development without needing a real backend.
 
 In this project, it powers all CRUD operations:
 
