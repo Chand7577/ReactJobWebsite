@@ -8,6 +8,7 @@ export const Hero = () => {
           <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
             Become a React Dev
           </h1>
+          <h2>made by Amrit</h2>
           <p className="my-4 text-xl text-white">
             Find the React job that fits your skills and needs
           </p>
