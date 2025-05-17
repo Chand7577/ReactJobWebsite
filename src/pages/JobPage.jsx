@@ -35,6 +35,7 @@ const JobPage = ({ deleteJob }) => {
       }
     };
     fetchJob();
+    console.log(job);
   }, []);
 
   return loading ? (
