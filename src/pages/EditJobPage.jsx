@@ -17,7 +17,7 @@ const EditJobPage = ({ EditJob }) => {
 
   useEffect(() => {
     const getJob = async () => {
-      const res = await fetch(`http://localhost:8000/jobs/${id}`);
+      const res = await fetch(`https://json-server-wiov.onrender.com/jobs/${id}`);
       const job = await res.json();
       setJob(job);
       setTitle(job.title);
