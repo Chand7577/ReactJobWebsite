@@ -9,8 +9,8 @@ const JobLists = ({ isHome = false }) => {
   useEffect(() => {
     const fetchJobs = async () => {
       const apiUrl = !isHome
-        ? "http://localhost:8000/jobs?_limit=3"
-        : "http://localhost:8000/jobs";
+        ? "https://json-server-wiov.onrender.com//jobs?_limit=3"
+        : "https://json-server-wiov.onrender.com//jobs";
       const res = await fetch(apiUrl);
       const data = await res.json();
       setJobs(data);
