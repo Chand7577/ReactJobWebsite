@@ -25,7 +25,7 @@ const JobPage = ({ deleteJob }) => {
   useEffect(() => {
     const fetchJob = async () => {
       try {
-        const res = await fetch(`http://localhost:8000/jobs/${id}`);
+        const res = await fetch(`https://json-server-wiov.onrender.com/jobs/${id}`);
         const data = await res.json();
         setJob(data);
       } catch (error) {
