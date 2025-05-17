@@ -17,7 +17,7 @@ import EditJobPage from "./pages/EditJobPage";
 const App = () => {
   // add new job
   const addJob = async (job) => {
-    const res = await fetch("http://localhost:8000/jobs", {
+    const res = await fetch("https://json-server-wiov.onrender.com/jobs", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -29,7 +29,7 @@ const App = () => {
   // delete job
 
   const deleteJob = async (id) => {
-    const res = await fetch(`http://localhost:8000/jobs/${id}`, {
+    const res = await fetch(`https://json-server-wiov.onrender.com/jobs/${id}`, {
       method: "DELETE",
     });
     return;
@@ -37,7 +37,7 @@ const App = () => {
 
   // edit job
   const EditJob = async (job) => {
-    const res = await fetch(`http://localhost:8000/jobs/${job.id}`, {
+    const res = await fetch(`https://json-server-wiov.onrender.com/jobs/${job.id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
